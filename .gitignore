@@ -312,3 +312,5 @@ GitHub.sublime-settings
 .history
 
 # End of https://www.gitignore.io/api/ruby,rails,linux,macos,rubymine,sublimetext,visualstudiocode
+# Ignore application configuration
+/config/application.yml
