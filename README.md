@@ -16,6 +16,7 @@
 ## To Use In Project
 - Change the constant values according to your project needs @ [constants.rb](config/initializers/constants.rb)
 - Change the messages accoring to your needs @ [en.yml](config/locales/en.yml) and other language files.
+- Change the origin to limit the calling of requests from outside in file [cors.rb](config/initializers/cors.rb).
 
 ## Contribution Guide
 
