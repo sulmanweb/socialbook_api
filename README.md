@@ -17,7 +17,7 @@
 - Change the constant values according to your project needs @ [constants.rb](config/initializers/constants.rb)
 - Change the messages accoring to your needs @ [en.yml](config/locales/en.yml) and other language files.
 - Change the origin to limit the calling of requests from outside in file [cors.rb](config/initializers/cors.rb).
-- For env variables create a copy of [/config/application.example.yml](config/application.example.rb) and paste in `config` folder with name `application.yml` and set the values according to your system and tools.
+- For env variables create a copy of [/config/application.example.yml](config/application.example.yml) and paste in `config` folder with name `application.yml` and set the values according to your system and tools.
 
 ## Contribution Guide
 
