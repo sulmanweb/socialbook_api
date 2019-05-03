@@ -1,0 +1,6 @@
+en:
+  app_name: "Social Book"
+
+  mailers:
+    footer: "Social Book, by Sulman Baig, Lahore, Pakistan"
+    header: "Social Book"
