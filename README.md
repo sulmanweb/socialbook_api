@@ -19,6 +19,13 @@
 - Change the origin to limit the calling of requests from outside in file [cors.rb](config/initializers/cors.rb).
 - For env variables create a copy of [/config/application.example.yml](config/application.example.yml) and paste in `config` folder with name `application.yml` and set the values according to your system and tools.
 
+## To use in docker for devlopment
+- Run in bash `docker-compose up --build`. Then press `^C`.
+- Run in bash `docker-compose run rails db:create`
+- Run in bash `docker-compose run rails db:migrate`
+- Run in bash `docker-compose up`. Then press `^C` to close.
+- Run in bash `docker-compose run rails console` to run console in docker.
+
 ## Contribution Guide
 
 ### Language
