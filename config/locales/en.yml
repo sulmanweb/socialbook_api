@@ -4,3 +4,9 @@ en:
   mailers:
     footer: "Social Book, by Sulman Baig, Lahore, Pakistan"
     header: "Social Book"
+
+  models:
+    users:
+      format_email: "must be in correct form"
+      format_username: "must be 15 characters long and can only have chars, numbers and underscores"
+      format_password: "must be 8 to 72 characters must have a number"
