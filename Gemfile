@@ -21,6 +21,9 @@ gem 'figaro', '1.1.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+  # For rspec testing
+  gem 'rspec-rails', '3.8.2'
+  gem 'factory_bot_rails', '5.0.2'
 end
 
 group :development do
@@ -30,6 +33,7 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
   # get emails in the browser for dev
   gem 'letter_opener', '1.7.0'
+  gem 'spring-commands-rspec', '1.0.4'
 end
 
 

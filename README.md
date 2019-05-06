@@ -26,6 +26,9 @@
 - Run in bash `docker-compose up`. Then press `^C` to close.
 - Run in bash `docker-compose run rails console` to run console in docker.
 
+## Rspec Testing
+- Run in bash `bin/rspec` for spec testing.
+
 ## Contribution Guide
 
 ### Language
